@@ -1,6 +1,7 @@
 // Write your code here!
-let main = document.querySelector('main');
+let main = document.getElementById('main');
 main.remove();
+console.log(main);
 
 let newHeader = document.createElement('h1');
 newHeader.id = 'victory';
